@@ -34,6 +34,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  flutter_svg: ^2.1.0
 
 dev_dependencies:
   flutter_test:
@@ -56,6 +57,15 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  assets:
+  - assets/images/remov1.png
+  - assets/images/remov2.png
+  - assets/images/email.png
+  - assets/images/facebook.png
+  - assets/images/google.png
+
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
@@ -84,6 +94,22 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
+
+  fonts:
+  - family: SairaSemiCondensed
+    fonts:
+      - asset: assets/fonts/SairaSemiCondensed-Black.ttf
+        weight: 900
+      - asset: assets/fonts/SairaSemiCondensed-Bold.ttf
+        weight: 700
+      - asset: assets/fonts/SairaSemiCondensed-SemiBold.ttf
+        weight: 600
+fonts:
+  - family: SomeRun
+    fonts:
+    asset: assets/fonts/SomerunDEMO-Regular-BF67cab99550dcc.ttf
+
+
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
